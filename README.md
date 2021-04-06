@@ -1,7 +1,7 @@
 # CS7IS2-Group-Project
 Run the program at the root directory by
 
-`python  recommender/main.py`
+`python  recommender/main.py -a mf`
 
 usage: main.py [-h] [-p DATASET_PATH] [-s DATASET_SIZE] -a ALGORITHM
 
