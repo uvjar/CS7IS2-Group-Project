@@ -18,7 +18,7 @@ google colab
 https://colab.research.google.com/drive/1sKeaf5Zwl23fSW5YdxLs2MotEsckywMO?usp=sharing
 
 project report (word)
-https://docs.google.com/document/d/1mBwuExEd7IWwYhT6O62y1RLYifspLZCRTLEAlVL3i0k/edit?usp=sharing
+https://drive.google.com/file/d/1JmV2qJ-VjhUGbkhCgFn3nouas2KzW0bw/view?usp=sharing
 
 project report (latex)
 https://www.overleaf.com/1894495722mrzxztsxntkh
