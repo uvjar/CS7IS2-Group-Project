@@ -1,7 +1,7 @@
 from lenskit.algorithms.basic import Bias, Popular, TopN 
 from lenskit import topn
 from lenskit.metrics.predict import rmse
-from lenskit.datasets import ML100K
+from lenskit.datasets import ML100K, MovieLens, ML1M, ML10M
 from lenskit import batch, topn, util
 from lenskit import crossfold as xf
 from lenskit.algorithms import Recommender, als, item_knn as knn
@@ -29,9 +29,18 @@ class MatrixFactorization:
 		    preds = batch.predict(fittable, test) 
 		    preds['Algorithm'] = aname 
 		    all_preds.append(preds)
-
-		ml100k = ML100K(path)
-		ratings = ml100k.ratings; 
+		if '100k' in path:
+			ml100k = ML100K(path)
+			ratings = ml100k.ratings;
+		elif '1m' in path:
+			ml100k = ML1M(path)
+			ratings = ml100k.ratings;
+		elif '10m' in path:
+			ml100k = ML10M(path)
+			ratings = ml100k.ratings;
+		else:
+			mlsmall = MovieLens(path)
+			ratings = mlsmall.ratings;
 		print(ratings.head())
 
 		all_preds = []; test_data = []
