@@ -2,6 +2,7 @@
 import argparse
 import os
 from MF import matrix_factorization
+from ContentBased import content_based
 
 
 
