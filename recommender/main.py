@@ -32,6 +32,10 @@ if __name__ == '__main__':
 		pass
 	elif args.algorithm == 'item-based':
 		pass
+	elif args.algorithm == 'cb':
+		al = content_based.ContentBased()
+		al.test(path)
+		pass
 	else:
 		print("Algorithm not exisit")
 		exit()
