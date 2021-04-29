@@ -20,7 +20,5 @@ https://colab.research.google.com/drive/1sKeaf5Zwl23fSW5YdxLs2MotEsckywMO?usp=sh
 project report (word)
 https://drive.google.com/file/d/1JmV2qJ-VjhUGbkhCgFn3nouas2KzW0bw/view?usp=sharing
 
-project report (latex)
-https://www.overleaf.com/1894495722mrzxztsxntkh
 
 
