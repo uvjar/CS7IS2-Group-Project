@@ -40,12 +40,12 @@ class ContentBased:
             movie_recommended[j] = idx.values[0]
             #print(i, cos_sim[i][0])
             j += 1
-        print(movie_recommended)
+        #print(movie_recommended)
 
         # user profiles
         #users, rated = np.unique(ratings['userId'].values, return_counts=True)  # only ok movies are selected
         # movies_to_gen_pred = 50
-        users_rated = [[0] * 1128] * len(users)
+        #users_rated = [[0] * 1128] * len(users)
         #counter = 0  # incremented by +rated by user i
         #for i in range(0, len(users)):  # for each user
         #    user_id = users[i]
