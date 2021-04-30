@@ -52,8 +52,9 @@ class ContentBased:
             print(movie_recommended)
 
         def set_user_profiles(ratings, gen):
+            #genearting a predicted rating for movies using content based filtering was not as straight forward as the other recomendation methods used in this project, thus this section is incomplete but three algorithms are compared in the project
             #user profiles
-            users, rated = np.unique(ratings['userId'].values, return_counts=True)  # only ok movies are selected
+            users, rated = np.unique(ratings['userId'].values, return_counts=True)  # only wwell rated movies are selected
             movies_to_gen_pred = 50
             users_rated = [[0] * 1128] * len(users)
             counter = 0  # incremented by +rated by user i
@@ -68,8 +69,7 @@ class ContentBased:
                     if movie_id in movs:
                         m = movs.index(movie_id)
                         user_tags[j] = gen[m]
-                # for each user create profile
-            #    user_tags = np.array(user_tags)
+
 
 
 
