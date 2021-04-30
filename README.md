@@ -12,11 +12,11 @@
 
 **Agathe Jaillard**
 
-* Implementaing user-based method
+* Implementaing content-based method
 
 **Mikeldi O Kelly**
 
-* Implementaing content-based method
+* Implementaing item-based method
 
 
 ### Requirements
