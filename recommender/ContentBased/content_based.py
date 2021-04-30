@@ -20,10 +20,11 @@ class ContentBased:
         print(os.getcwd())
 
     def test(self, path):
-        movies = pd.read_csv(r'C:\Users\enfan\Documents\TCD\AI\CS7IS2-Group-Project\data\ml-100k\movies.csv', sep=',', encoding='latin-1')
-        genome_scores = pd.read_csv(r'C:\Users\enfan\Documents\TCD\AI\CS7IS2-Group-Project\data\ml-100k\genome-scores.csv', sep=',',
-                                    encoding='latin-1')
-        ratings = pd.read_csv(r'C:\Users\enfan\Documents\TCD\AI\CS7IS2-Group-Project\data\ml-100k\ratings.csv', sep=',', encoding='latin-1')
+        ml20m = MovieLens('data/ml-20m')
+        mlsmall = MovieLens('data/ml-latest-small')
+        movies = mlsmall.movies # pd.read_csv('\data\ml-100k\movies.csv', sep=',', encoding='latin-1')
+        genome_scores = ml20m.tag_genome #pd.read_csv('\data\ml-100k\genome-scores.csv', sep=',',encoding='latin-1')
+        ratings = mlsmall.ratings #pd.read_csv('\data\ml-100k\ratings.csv', sep=',', encoding='latin-1')
 
         genome_scores_np = genome_scores.values
         gen = [[0] * 1128] * int(len(genome_scores) / 1128)
