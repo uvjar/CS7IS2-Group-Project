@@ -1,9 +1,23 @@
 # CS7IS2-Group-Project
-Run the program at the root directory by
 
-`python  recommender/main.py -a mf`
+## Contributions
 
-usage: main.py [-h] [-p DATASET_PATH] [-s DATASET_SIZE] -a ALGORITHM
+**Pengyi Cao**
+
+* Implementaing MF method
+
+**Dara O Connor**
+
+* Implementaing user-based method
+
+**Agathe Jaillard**
+
+* Implementaing item-based method
+
+**Mikeldi O Kelly**
+
+* Implementaing content-based method
+
 
 ### Requirements
     
@@ -22,3 +36,10 @@ https://drive.google.com/file/d/1JmV2qJ-VjhUGbkhCgFn3nouas2KzW0bw/view?usp=shari
 
 
 
+
+
+Run the program at the root directory by
+
+`python  recommender/main.py -a mf`
+
+usage: main.py [-h] [-p DATASET_PATH] [-s DATASET_SIZE] -a ALGORITHM
