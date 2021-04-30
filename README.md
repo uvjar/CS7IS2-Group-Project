@@ -18,6 +18,8 @@
 
 * Implementing item-based method
 
+Note: not everyone stuck to a single algorithm, when one was done earlier, they helped others completing their work.
+
 
 ### Requirements
     
