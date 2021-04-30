@@ -4,19 +4,19 @@
 
 **Pengyi Cao**
 
-* Implementaing MF method
+* Implementing MF method
 
 **Dara O Connor**
 
-* Implementaing item-based method
+* Implementing item-based method
 
 **Agathe Jaillard**
 
-* Implementaing content-based method
+* Implementing content-based method
 
 **Mikeldi O Kelly**
 
-* Implementaing item-based method
+* Implementing item-based method
 
 
 ### Requirements
