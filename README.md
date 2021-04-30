@@ -8,11 +8,11 @@
 
 **Dara O Connor**
 
-* Implementaing user-based method
+* Implementaing item-based method
 
 **Agathe Jaillard**
 
-* Implementaing item-based method
+* Implementaing user-based method
 
 **Mikeldi O Kelly**
 
